@@ -1,34 +1,34 @@
-# Danh sách dự án trên trang chủ, theo thứ tự hiển thị.
-# name, url, desc là bắt buộc; site là trang riêng của dự án (nếu có).
+# Projects on the home page, in display order.
+# name, url and desc are required; site is the project's own page (optional).
 - name: Ghostline
   url: https://github.com/hashcott/ghostline
   site: https://hashcott.github.io/ghostline/
-  desc: DNS mã hoá một chạm (DoH/DoT/DoQ/DNSCrypt), proxy cục bộ và luật theo tên miền cho Windows và Linux. ~30 MB RAM, không telemetry.
+  desc: One-click encrypted DNS (DoH/DoT/DoQ/DNSCrypt), a local proxy and per-domain rules for Windows and Linux. ~30 MB of RAM, no telemetry.
 
 - name: GameNoLag
   url: https://github.com/hashcott/NoLag
-  desc: Ping ổn định hơn cho game thủ ở Việt Nam, qua các relay do cộng đồng vận hành đặt gần máy chủ game.
+  desc: Steadier ping for gamers in Vietnam, through community-run relays placed close to game servers.
 
 - name: AICamPro
   url: https://github.com/hashcott/AICamPro
-  desc: Webcam AI cho Linux — xoá phông, chỉnh màu, làm mịn da, tự căn khung — chạy trên GPU AMD qua ROCm, dùng được với Meet, Zoom, OBS.
+  desc: An AI webcam for Linux (background removal, color correction, skin smoothing, auto framing) running on AMD GPUs via ROCm. Works with Meet, Zoom and OBS.
 
 - name: meta-ads-mcp-server
   url: https://github.com/hashcott/meta-ads-mcp-server
-  desc: MCP server cho Meta (Facebook) Ads API.
+  desc: An MCP server for the Meta (Facebook) Ads API.
 
 - name: freshdesk-mcp
   url: https://github.com/hashcott/freshdesk-mcp
-  desc: MCP server cho Freshdesk — 194 tool, stdio và HTTP, dùng với Claude, Cursor hay bất kỳ MCP client nào.
+  desc: An MCP server for Freshdesk with 194 tools, over stdio and HTTP. Works with Claude, Cursor or any MCP client.
 
 - name: bestdns
   url: https://github.com/hashcott/bestdns
-  desc: Tìm DNS nhanh và an toàn nhất cho mạng của bạn, rồi áp dụng chỉ một bước.
+  desc: Finds the fastest and safest DNS for your network, then applies it in one step.
 
 - name: mouse-unlock
   url: https://github.com/hashcott/mouse-unlock
-  desc: Mở khoá màn hình Linux bằng một chuỗi click chuột bí mật. Daemon viết bằng Rust, rất nhẹ.
+  desc: Unlock your Linux screen with a secret sequence of mouse clicks. A tiny daemon written in Rust.
 
 - name: openrouter-max-cli
   url: https://github.com/hashcott/openrouter-max-cli
-  desc: CLI cho OpenRouter có bộ nhớ lâu dài, streaming và nhiều model.
+  desc: A CLI for OpenRouter with long-term memory, streaming and multiple models.

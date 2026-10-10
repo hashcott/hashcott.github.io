@@ -1,8 +1,8 @@
 title: Nguyễn Đức Hạnh
-description: Làm những thứ nhỏ giúp cuộc sống dễ hơn. Full-stack dev, Go & TypeScript.
+description: I build small tools that make life easier. Full-stack dev, Go and TypeScript.
 url: "https://hashcott.github.io"
 baseurl: ""
-lang: vi
+lang: en
 timezone: Asia/Ho_Chi_Minh
 
 author:
@@ -10,7 +10,7 @@ author:
   github: hashcott
   email: duchanhstyle@gmail.com
 
-# Giữ đường dẫn cũ của các bài viết
+# Keep the old post URLs
 permalink: /:year-:month-:day-:title/
 
 markdown: kramdown

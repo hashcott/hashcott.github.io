@@ -1,4 +1,4 @@
-/* Giao diện: một cột, chữ thường dễ đọc, các chi tiết "cấu trúc" (prompt, đường dẫn, ngày) dùng font mono. */
+/* One column, readable body text; structural details (prompt, paths, dates) in a monospace face. */
 :root {
   --bg: #f6f7f9;
   --fg: #1c2430;
@@ -37,7 +37,7 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
 
-/* Header: một dòng prompt shell */
+/* Header: a shell prompt line */
 header.site {
   display: flex; flex-wrap: wrap; gap: 6px 24px;
   justify-content: space-between; align-items: baseline;
@@ -67,7 +67,7 @@ header.site nav a:hover { color: var(--accent); }
 .intro .tagline { font: 15px/1.6 var(--mono); color: var(--muted); margin: 0 0 24px; }
 .intro p { margin: 0 0 14px; }
 
-/* Tiêu đề mục: đường dẫn thư mục */
+/* Section headings: directory paths */
 h2.dir { font: 500 15px/1.4 var(--mono); color: var(--fg); margin: 64px 0 14px; }
 h2.dir::before { content: "~/"; color: var(--accent); }
 
@@ -85,7 +85,7 @@ h2.dir::before { content: "~/"; color: var(--accent); }
 .more a { color: var(--muted); }
 .more a:hover { color: var(--accent); }
 
-/* Bài viết */
+/* Posts */
 .meta { font: 13.5px var(--mono); color: var(--muted); margin: 0 0 10px; }
 .meta .tag { color: var(--accent); }
 article h1 { font: 600 30px/1.3 var(--sans); letter-spacing: -.01em; margin: 0 0 8px; }
@@ -103,7 +103,7 @@ pre code { background: none; padding: 0; font-size: 14px; }
 hr { border: 0; border-top: 1px dashed var(--line); margin: 36px 0; }
 .back { font: 14px var(--mono); margin-top: 56px; }
 
-/* Tô màu code (Rouge) */
+/* Code highlighting (Rouge) */
 .highlight .c, .highlight .c1, .highlight .cm, .highlight .cs { color: var(--muted); font-style: italic; }
 .highlight .k, .highlight .kd, .highlight .kn, .highlight .kr, .highlight .kt, .highlight .nt { color: #8b4fc4; }
 .highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .si { color: #3f7d1f; }

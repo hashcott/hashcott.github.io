@@ -3,18 +3,18 @@ layout: default
 ---
 <section class="intro">
   <h1>{{ site.author.name }}</h1>
-  <p class="tagline">// full-stack dev, Go và TypeScript</p>
-  <p>Xin chào, mình là <strong>Hạnh</strong>, full-stack dev ở Hà Nội. Mình thích làm những công cụ nhỏ
-  giúp cuộc sống dễ hơn, và dạo này làm việc nhiều với các AI agent (Claude Code, Codex, Cursor).</p>
-  <p>Đây là nơi mình ghi lại các dự án, thông báo khi có bản cập nhật, và thỉnh thoảng viết vài bài.</p>
+  <p class="tagline">// full-stack dev, Go and TypeScript</p>
+  <p>Hi, I'm <strong>Hạnh</strong>, a full-stack developer in Hanoi. I like building small tools that make
+  life a little easier, and these days I work a lot with AI agents (Claude Code, Codex, Cursor).</p>
+  <p>This is where I keep track of my projects, announce new releases, and occasionally write a post.</p>
 </section>
 
-<section id="du-an">
-  <h2 class="dir">du-an</h2>
+<section id="projects">
+  <h2 class="dir">projects</h2>
   <ul class="list proj">
     {% for p in site.data.projects %}
     <li>
-      <a class="name" href="{{ p.url }}">{{ p.name }}</a>{% if p.site %}<a class="aside" href="{{ p.site }}">[trang chủ]</a>{% endif %}
+      <a class="name" href="{{ p.url }}">{{ p.name }}</a>{% if p.site %}<a class="aside" href="{{ p.site }}">[website]</a>{% endif %}
       <span class="desc">{{ p.desc }}</span>
     </li>
     {% endfor %}
@@ -23,8 +23,8 @@ layout: default
 </section>
 
 {% assign updates = site.posts | where: "type", "update" %}
-<section id="cap-nhat">
-  <h2 class="dir">cap-nhat</h2>
+<section id="updates">
+  <h2 class="dir">updates</h2>
   {% if updates.size > 0 %}
   <ul class="list dated">
     {% for post in updates limit: 10 %}
@@ -32,13 +32,13 @@ layout: default
     {% endfor %}
   </ul>
   {% else %}
-  <p class="empty">Chưa có cập nhật nào.</p>
+  <p class="empty">No updates yet.</p>
   {% endif %}
 </section>
 
 {% assign writings = site.posts | where_exp: "p", "p.type != 'update'" %}
-<section id="bai-viet">
-  <h2 class="dir">bai-viet</h2>
+<section id="posts">
+  <h2 class="dir">posts</h2>
   <ul class="list dated">
     {% for post in writings %}
     <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>

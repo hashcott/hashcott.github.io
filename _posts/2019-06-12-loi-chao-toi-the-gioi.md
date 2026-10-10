@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Lời chào tới thế giới - Hello World
-subtitle: Lời tự sự của bản thân !
-tags: [linhtinh]
+title: Hello, World
+subtitle: A little about myself!
+tags: [misc]
 comments: true
 ---
 
@@ -16,52 +16,52 @@ console.log('Hello World'); // Javascript
 print('Hello World') // Python
 ```
 
-**Xin chào thế giới - Hello world**
+**Hello, world**
 
-Câu nói trên là gì vậy ta ???
+What's that line all about???
 
-Chính nó là câu nói bất hủ khi học về lập trình =)) . Hầu như lập trình viên nào cũng được học cách in câu đó ra màn hình trong lần học đầu tiên , dù cho họ có học ngôn ngữ lập trình nào đi nữa.Và tôi cũng vậy muốn gửi tới thế giới một lời chào với bao nhiêu mơ ước và hi vọng của mình =)) **Fighting Me !!!** .
+It's the timeless phrase of learning to program =)). Almost every programmer learns to print it on the screen in their very first lesson, whatever language they start with. And like them, I want to send the world a hello, along with all my dreams and hopes =)) **Fighting, me!!!**
 
-## Đôi lời tự sự về bản thân
+## A few words about myself
 
-**--Bước đầu học lập trình--**
+**--First steps in programming--**
 
-Ngay khi còn là một khi còn là một cậu bé, tôi đã thích chơi game =)). Và chính nó đã đem tôi đến với con đường lập trình ( đầy cám dỗ :< học ít chơi game thì nhiều :( ).
+Ever since I was a little kid, I loved playing games =)). And that's what led me to programming (a path full of temptation :< less studying, more gaming :( ).
 
-Còn nhớ hồi đó , năm lớp 7 gì đó tôi HAM chơi game lắm (game mobile thôi). Nhà có con điện thoại cục gạch Nokia 3110C của bố toàn lấy chơi lén thôi (Bị bắt là ăn đòn :( huhu ). Ngày đó, game mobile đang phát triển ở thời kì đỉnh cao.
-Game mọc lên như nấm , nhiều vô kể. Cũng nhờ mấy cái quảng cáo trên TV tôi mới biết đến GPRS/ mạng 2G để tải game ( Hồi đó mạng nhanh lắm : Max speed = 114 kbps huhu ). Và cứ thế cứ thế tôi bắt đầu searh với anh chị google các keyword về game và tải về. Cay vãi nồi, hồi đầu tải bị lừa gửi tin nhắn các bác ạ **so sad**, chắc nhiều bác cũng giống em có lúc mất 10k, lúc thì 15k (em bị mất 3 lần tổng là 35k. 20k của game tàu gì đó, 15k mất vì bác Teamobi). Cũng cảm ơn, ai đó đã cài UC Browser vào máy bố mình nên ở phần wap nổi bật có mấy trang wap, vì thế mình mới biết đến quyetdaik , wapvip , phuthobay, giaitri321 .
+I remember back in 7th grade or so, I was CRAZY about games (just mobile games). My dad had a brick of a phone, a Nokia 3110C, and I'd borrow it to play in secret (getting caught meant a spanking :( ). Mobile gaming was at its peak back then.
+New games popped up like mushrooms, more than you could count. Thanks to TV ads I learned about GPRS/2G for downloading games (blazing fast back then: max speed = 114 kbps, lol). So I started searching Google for game keywords and downloading whatever I found. It was infuriating: at first I got tricked into sending premium SMS, **so sad**. Plenty of you probably went through the same, losing 10k here, 15k there (I got hit 3 times for 35k in total: 20k on some ship game, 15k to Teamobi). Thankfully someone had installed UC Browser on my dad's phone, and its featured WAP section listed a few WAP sites. That's how I found quyetdaik, wapvip, phuthobay and giaitri321.
 
-**Và từ đó cuộc đời mình thay đổi từ đây**
+**And that's where my life changed**
 
-Xin cám ơn anh TâmLag đã tạo ra wapvip nhớ , dù giờ nó đã dừng hoạt động huhu
+Thank you, TâmLag, for creating wapvip, even though it's gone now.
 
-Không nhớ là lúc nào đó mình có đọc về một bài mod game trên wapvip và mình đã làm theo nó, mình đã chỉnh sửa file gửi tin nhắn của Ninja School. Và đó là lần đầu tiên mình động đến code. Cảm giác lúc vui lắm các bạn ạ , tự mình làm một cái gì đó mà không phải dùng crack lại. Sau đó mình , bắt đầu tìm hiểu về cách chỉnh sửa .jar , mình đã mod lại rất nhiều game từ Ninja School, Art of War ,...chỉnh sửa những lời thoại,tên nhưng vũ khí ,skill. Mục đích đê khoe với lũ bạn, để chúng nó chơi :)) (Vui quá khi nhớ lại anh em ạ).
+At some point I read a game-modding post on wapvip and followed it: I edited the SMS-sending file in Ninja School. That was the first time I ever touched code. It felt amazing to make something myself instead of using a crack. After that I started learning how to edit .jar files, and I modded lots of games, from Ninja School to Art of War, changing dialogue, weapon names and skills. The point was to show off to my friends and let them play :)) (it's fun to look back on).
 
-Và thế sau quá trình tìm hiểu tôi đã đến được với aichat :)) trang web được dựng bởi WapBuilder Xtgem =)) , cái thời mà wap trên mobile còn đang thịnh hành, các wap mọc lên nhan nhản dù content chẩng có cái méo gì cả :'( . Sau một time tìm hiểu tôi cũng build được cái wap , khổ lắm có sướng gì đâu. Phải up từng file code trong filelist mà các pro đi trước chia sẻ.Có hiểu gì đâu cứ up lên lỗi lại up lại ,chắc cũng tầm chục lần mới thành công ý chứ. Sau nhiều ngày sử dụng tôi cũng biết một chút về code, biết chút về giao diện HTML, CSS. Một thời gian sau khi dùng Xtgem quá chán với việc load quá chậm rồi, timeout thì tôi biết đến WapSeo. Giao diện tiếng việt dễ sử dụng , nhiều template được share. Và rồi dùng leech , leech bài từ các trang khác về.Rồi cũng được một trang khá nhiều content (xin dấu tên vì nội dung không được lành mạnh cho lắm).
+After a while of digging around, I found aichat :)), a site built with WapBuilder Xtgem =)), back when mobile WAP sites were all the rage and they sprang up everywhere even with no real content :'( . After some time I managed to build my own WAP site, and it was no picnic. I had to upload every code file from the file lists the old hands shared. I understood none of it; I'd upload, hit errors, upload again, maybe ten times before it worked. After many days of this I picked up a bit of code and a bit of HTML and CSS. Later, fed up with Xtgem's slow loading and timeouts, I found WapSeo: a Vietnamese interface, easy to use, with lots of shared templates. Then I used leech tools to pull posts from other sites, and ended up with a site with quite a lot of content (which I won't name, since the content wasn't exactly wholesome).
 
-Và cứ thế mọi thứ trôi qua, tôi lại cắm đầu vào học bài vở trên lớp , vẫn chơi game, vẫn up content wap đều đều. Tôi học được thêm 2 ngôn ngữ mới từ trường cấp 3 là Pascal, C. Một chút về cơ sở dữ liệu với Access. Đến khi WapSeo die thật tôi đã bỏ chẳng học hay nghịch thêm gì về lập trình cả :( .
+And so time went by. I buried myself in schoolwork, kept playing games, and kept posting to my WAP site. In high school I learned two new languages, Pascal and C, and a little about databases with Access. When WapSeo finally died, I stopped learning or tinkering with programming altogether :( .
 
--Nói thật lập trình chỉ là một thú vui nhỏ thôi ,tôi chỉ muốn học lập trình để phục vụ nhu cầu kinh doanh hay kiếm tiền của mình . Tôi bắt đầu biến dùng linh rút gọn , rồi chèn quảng cáo, rồi nhờ một anh trai rút hộ rồi anh mua thẻ điện thoại gửi cho .Và tôi đã dùng số thẻ đó để đăng kí mạng internet và nạp game :(
+-Honestly, programming was just a small hobby; I only wanted to learn it for business or to make some money. I started using link shorteners and inserting ads, then asked an older guy to cash out for me, and he'd buy phone cards and send them to me. I used those cards to pay for internet and top up games :(
 
-**--THI ĐẠI HỌC--**
+**--The university entrance exam--**
 
-Cuối cùng thì cũng đã hết cấp 3 , tôi bước vào kì thi đại học năm 2018 với một tâm thế khá tự tin. Nhưng sau khi thi xong rồi thì quá buồn , tôi đã không đạt được như kì vọng. Tôi đã phụ lòng của bố mẹ và gia đình đã giành cho tôi.( Lúc đó tôi nghĩ vậy , buồn lắm các bạn ạ, tôi tưởng mình còn không đỗ nổi đại học. Năm đó đề khó - gian lận abc =)) )
+Finally high school was over, and I went into the 2018 university entrance exam feeling fairly confident. But after the exam I was crushed: I hadn't done as well as I'd hoped. I felt I'd let down my parents and my family. (That's what I thought at the time. It hurt; I thought I might not even get into university. The exam was hard that year, and there was the cheating scandal =)) )
 
-Tôi vẫn cố tỏ ra là mình ổn trước mặt bố mẹ. Sau nhiều ngày chờ đợi, cuối cùng cũng có hi vọng =)) tôi trượt hết nguyện vọng đầu như đã dự đoán,nhưng may mắn thay tôi đã đỗ ngành CNTT của Đại học Thuỷ Lợi (nghe tên trường vậy thôi chứ trường cơ sở vật chất rất tốt và học phí cũng rẻ ,nhà tôi cũng không khá giả gì cả)
+I kept pretending to be fine in front of my parents. After many days of waiting, there was finally hope =)). As expected, I missed all my top choices, but luckily I got into the IT program at Thuyloi University (the name says "water resources", but the facilities are very good and the tuition is cheap, and my family isn't well off).
 
-**--Khi học Đại học--**
+**--At university--**
 
-Vì đã phụ sự kì vọng của gia đình trong kì thi đại học.Sau khi vào đại học tôi đã cố gắng thay đổi bản thân học hành chăm chỉ hơn, tham gia hoạt động tốt hơn ( cấp 3 tôi khá lù đù ít khi tham gia hoạt động gì cả nên lớp trưởng rất ghét tôi =)) xin lỗi cậu nhé lớp trưởng đại nhân )
+Since I'd let my family down with the entrance exam, once I got to university I tried to change: study harder and take part in more activities (in high school I was pretty sluggish and rarely joined anything, so the class president really disliked me =)) sorry about that, Your Honor the class president).
 
-Quá trình học tập của tôi ,cũng diễn ra khá tốt. Tôi có nghe nói có một cuộc thi về lập trình trên khoa thông báo thế là tôi tham gia. Đó là **Cuộc thi tin học Sinh viên**, so với các bạn trong lớp ôn luyên tôi xuất phất điểm được coi là thấp nhất (tôi chỉ biết mỗi vài câu syntax if, for,while). Nhưng may mắn thay tôi đã có người thầy rất tận tâm , em cám ơn thầy **Trương Xuân Nam** đã cho em cơ hội. Trong gần 1 tháng tối bắt đầu vừa học syntax vừa ôn luyện để leo rank xếp hạng (hạng cao mới được đi thi). Ngày cuối cùng thì tôi cũng nhận được thông báo của thầy về việc trúng tuyển thi **"Olympic tin học sinh viên Toàn quốc"** Tôi vui lắm và đi thi với sự thoải mái , vì tôi đặt mình ở "kèo dưới" mà. Ngờ đâu rằng tôi lại được giải các bạn ạ
+My studies went pretty well. I heard the faculty announce a programming contest, so I signed up. It was the **Student Informatics Contest**. Compared to my classmates in the training group, I started from the lowest point (I only knew a bit of syntax: if, for, while). But luckily I had a very dedicated teacher. Thank you, **Mr. Trương Xuân Nam**, for giving me the chance. For almost a month I learned syntax while practicing to climb the ranking (only the top ranks got to compete). On the last day, my teacher told me I'd been selected for the **"National Student Olympiad in Informatics"**. I was thrilled and went in relaxed, since I saw myself as the underdog. Little did I know I'd win a prize.
 
-Tôi đã đạt **"Giải ba Olympic tin học Sinh viên Toàn Quốc"** lúc nhận giải tôi vẫn không tin nổi vào bản thân, tôi đã làm hết khả năng của mình nhưng không nghĩ lại được giải thưởng đó. Đó là giải thưởng lớn nhất mà từ trước tới giờ tôi đã đạt được.
+I won **"Third Prize at the National Student Olympiad in Informatics"**. Even while receiving it I couldn't believe it. I'd given it my all, but never expected to win. It's the biggest award I've ever received.
 
-Nhờ bước đà đó , tôi đã nghiên cứu thêm một số ngôn ngữ từ Python, Nodejs, PHP,... Và hiện tại tôi đang chọn PHP làm ngôn ngữ chính để học thêm và làm việc . Tôi nghiên cứu sâu hơn về PHP tôi đã học một FrameWork của nó là Laravel. Và hiện tại tôi đang làm một web devoloper.Mặc dù trình độ còn rất gà =(( , mong sẽ sớm cải thiện.
+With that momentum, I explored more languages: Python, Node.js, PHP... Right now I've picked PHP as my main language to learn and work with. To go deeper, I learned its framework Laravel, and I'm now working as a web developer. My skills are still pretty green =((, and I hope to improve soon.
 
-**Thế đấy đó là dòng tâm sự của tôi. Tính tới thời điểm hiện tại.
-Time now : {{ site.time | date: "%Y-%m-%d %H:%M:%S" }}
-Có gì hot sẽ update thêm sau...
+**So that's my story, up to now.
+Time now: {{ site.time | date: "%Y-%m-%d %H:%M:%S" }}
+I'll add more when something exciting happens...
 **
 
-## To be Continued ...
+## To be continued...

@@ -4,7 +4,7 @@ layout: default
 <article>
   <p class="meta">
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-    {% if page.type == "update" %}<span class="tag">#cap-nhat</span>{% endif %}
+    {% if page.type == "update" %}<span class="tag">#update</span>{% endif %}
     {% for t in page.tags %}<span class="tag">#{{ t }}</span> {% endfor %}
   </p>
   <h1>{{ page.title }}</h1>

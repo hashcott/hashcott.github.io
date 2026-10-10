@@ -1,53 +1,53 @@
 # hashcott.github.io
 
-Trang cá nhân của Nguyễn Đức Hạnh tại **<https://hashcott.github.io>**: các dự án mình đang làm, thông báo khi có bản cập nhật, và thỉnh thoảng vài bài viết.
+Personal site of Nguyễn Đức Hạnh at **<https://hashcott.github.io>**: the projects I'm working on, release announcements, and the occasional post.
 
-Build bằng Jekyll có sẵn của GitHub Pages, không dùng theme, không JavaScript. Toàn bộ giao diện nằm trong một file CSS.
+Built with GitHub Pages' built-in Jekyll. No theme, no JavaScript; the whole look lives in one CSS file.
 
-## Cấu trúc
+## Layout
 
 ```
-_config.yml         tên, mô tả, thông tin tác giả
-_data/projects.yml  danh sách dự án trên trang chủ
-_posts/             bài viết và thông báo cập nhật
-_layouts/           default.html (khung trang), post.html (bài viết)
-assets/style.css    giao diện, sáng và tối
-img/                ảnh dùng trong bài
+_config.yml         site name, description, author info
+_data/projects.yml  projects listed on the home page
+_posts/             posts and release updates
+_layouts/           default.html (page shell), post.html (posts)
+assets/style.css    styles, light and dark
+img/                images used in posts
 ```
 
-## Thêm nội dung
+## Adding content
 
-**Dự án:** thêm một mục vào `_data/projects.yml`:
+**Project:** add an entry to `_data/projects.yml`:
 
 ```yaml
-- name: ten-du-an
-  url: https://github.com/hashcott/ten-du-an
-  site: https://hashcott.github.io/ten-du-an/   # không bắt buộc
-  desc: Mô tả một câu.
+- name: project-name
+  url: https://github.com/hashcott/project-name
+  site: https://hashcott.github.io/project-name/   # optional
+  desc: One-sentence description.
 ```
 
-**Thông báo cập nhật:** tạo `_posts/YYYY-MM-DD-ten-bai.md`:
+**Release update:** create `_posts/YYYY-MM-DD-post-name.md`:
 
 ```markdown
 ---
-title: Ten du an 1.2.0
+title: Project name 1.2.0
 type: update
 ---
 
-Nội dung...
+Body...
 ```
 
-**Bài viết:** giống trên nhưng bỏ dòng `type: update`. Có thể thêm `subtitle:` và `tags: [...]`.
+**Post:** same as above without the `type: update` line. You can also add `subtitle:` and `tags: [...]`.
 
-Đường dẫn bài viết có dạng `/YYYY-MM-DD-ten-bai/`.
+Post URLs look like `/YYYY-MM-DD-post-name/`.
 
-## Chạy ở máy
+## Running locally
 
-Cần Ruby và Bundler:
+You need Ruby and Bundler:
 
 ```sh
 bundle install
 bundle exec jekyll serve
 ```
 
-Rồi mở <http://localhost:4000>. Push lên `master` là GitHub Pages tự build lại.
+Then open <http://localhost:4000>. Pushing to `master` makes GitHub Pages rebuild the site.
