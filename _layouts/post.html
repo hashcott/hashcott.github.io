@@ -3,11 +3,12 @@ layout: default
 ---
 <article>
   <p class="meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
-    {% if page.type == "update" %}· cập nhật{% endif %}
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+    {% if page.type == "update" %}<span class="tag">#cap-nhat</span>{% endif %}
+    {% for t in page.tags %}<span class="tag">#{{ t }}</span> {% endfor %}
   </p>
   <h1>{{ page.title }}</h1>
   {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
   {{ content }}
 </article>
-<p class="back"><a href="{{ '/' | relative_url }}">← Về trang chủ</a></p>
+<p class="back"><a href="{{ '/' | relative_url }}">$ cd ~</a></p>

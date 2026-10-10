@@ -6,24 +6,28 @@
   <meta name="color-scheme" content="light dark">
   {% seo %}
   {% feed_meta %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
   <header class="site">
-    <a class="name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="prompt" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, về trang chủ"><span class="user">{{ site.author.github }}</span>@hanoi:<span class="path">~</span>$<span class="cursor" aria-hidden="true"></span></a>
     <nav>
-      <a href="{{ '/#du-an' | relative_url }}">Dự án</a>
-      <a href="{{ '/#cap-nhat' | relative_url }}">Cập nhật</a>
-      <a href="{{ '/#bai-viet' | relative_url }}">Bài viết</a>
+      <a href="{{ '/#du-an' | relative_url }}">du-an/</a>
+      <a href="{{ '/#cap-nhat' | relative_url }}">cap-nhat/</a>
+      <a href="{{ '/#bai-viet' | relative_url }}">bai-viet/</a>
     </nav>
   </header>
   <main>
 {{ content }}
   </main>
   <footer>
-    <a href="https://github.com/{{ site.author.github }}">GitHub</a> ·
-    <a href="mailto:{{ site.author.email }}">Email</a> ·
-    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    <a href="https://github.com/{{ site.author.github }}">github</a>
+    <a href="mailto:{{ site.author.email }}">email</a>
+    <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+    <span class="exit">© {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
   </footer>
 </body>
 </html>

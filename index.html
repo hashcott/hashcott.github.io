@@ -2,32 +2,33 @@
 layout: default
 ---
 <section class="intro">
-  <p>Xin chào, mình là <strong>Hạnh</strong> — full-stack dev ở Hà Nội, chủ yếu viết Go và TypeScript.
-  Mình thích làm những công cụ nhỏ giúp cuộc sống dễ hơn, và dạo này làm việc nhiều với các AI agent
-  (Claude Code, Codex, Cursor).</p>
+  <h1>{{ site.author.name }}</h1>
+  <p class="tagline">// full-stack dev, Go và TypeScript</p>
+  <p>Xin chào, mình là <strong>Hạnh</strong>, full-stack dev ở Hà Nội. Mình thích làm những công cụ nhỏ
+  giúp cuộc sống dễ hơn, và dạo này làm việc nhiều với các AI agent (Claude Code, Codex, Cursor).</p>
   <p>Đây là nơi mình ghi lại các dự án, thông báo khi có bản cập nhật, và thỉnh thoảng viết vài bài.</p>
 </section>
 
 <section id="du-an">
-  <h2>Dự án</h2>
-  <ul class="list">
+  <h2 class="dir">du-an</h2>
+  <ul class="list proj">
     {% for p in site.data.projects %}
     <li>
-      <a href="{{ p.url }}">{{ p.name }}</a>{% if p.site %} <a class="aside" href="{{ p.site }}">trang chủ ↗</a>{% endif %}
+      <a class="name" href="{{ p.url }}">{{ p.name }}</a>{% if p.site %}<a class="aside" href="{{ p.site }}">[trang chủ]</a>{% endif %}
       <span class="desc">{{ p.desc }}</span>
     </li>
     {% endfor %}
   </ul>
-  <p class="more"><a href="https://github.com/{{ site.author.github }}?tab=repositories">Tất cả trên GitHub →</a></p>
+  <p class="more"><a href="https://github.com/{{ site.author.github }}?tab=repositories">$ ls github.com/{{ site.author.github }}</a></p>
 </section>
 
 {% assign updates = site.posts | where: "type", "update" %}
 <section id="cap-nhat">
-  <h2>Cập nhật</h2>
+  <h2 class="dir">cap-nhat</h2>
   {% if updates.size > 0 %}
   <ul class="list dated">
     {% for post in updates limit: 10 %}
-    <li><time>{{ post.date | date: "%d/%m/%Y" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
   {% else %}
@@ -37,10 +38,10 @@ layout: default
 
 {% assign writings = site.posts | where_exp: "p", "p.type != 'update'" %}
 <section id="bai-viet">
-  <h2>Bài viết</h2>
+  <h2 class="dir">bai-viet</h2>
   <ul class="list dated">
     {% for post in writings %}
-    <li><time>{{ post.date | date: "%d/%m/%Y" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </section>
