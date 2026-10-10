@@ -1,35 +1,49 @@
 ---
 title: Hello, world
-subtitle: How I got into programming, and what I do now.
+subtitle: Where this started, and where it's going.
 tags: [misc]
 redirect_from:
   - /2019-06-12-loi-chao-toi-the-gioi/
 ---
 
 ```go
-fmt.Println("Hello, world")
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, world")
+}
 ```
 
-Almost every programmer prints this line in their first lesson. This is mine, written a second time: the first version of this post went up in 2019, and enough has changed since then that it was easier to start over.
+Every programmer's first program says the same thing. It's a strange tradition when you think about it: before we know how to do anything useful, we teach the machine to wave.
 
-## A Nokia and a .jar file
+So, hello. I'm Hạnh.
 
-It started with games. Around 7th grade I'd borrow my dad's Nokia 3110C to play mobile games in secret, downloading them over a 2G connection that topped out at 114 kbps. A few of those downloads turned out to be premium-SMS traps that cost me pocket money.
+## The first edit
 
-Through UC Browser I found the Vietnamese WAP forums of the time, wapvip among them. One post there explained how to edit the SMS-sending file in Ninja School. I followed it, and that was the first time I touched code. Soon I was unpacking `.jar` files and changing dialogue, weapon names and skills in games like Ninja School and Art of War, mostly to show my friends.
+I didn't come to code through a class or a book. I came to it through a borrowed phone.
 
-## WAP sites
+My dad owned a Nokia 3110C, and I used it, without asking, to play games. Downloads crawled in over 2G, and more than once a "free" game turned out to be a trap that quietly charged an SMS fee. Somewhere in that world of cheap WAP pages I found a forum post that showed how to open a game's `.jar` file and change what was inside.
 
-Next came building WAP sites, first on Xtgem and then on WapSeo. I uploaded code files from shared file lists without understanding them, broke things, and uploaded again until they worked. That's how I picked up my first bits of HTML and CSS. In high school I added Pascal, C and a little Access, and when WapSeo shut down I mostly stopped programming for a while.
+I changed some text in Ninja School, repackaged it, and it ran. Nothing I've shipped since has felt quite as magical as seeing my own words appear inside someone else's game.
 
-## University
+## Learning by breaking things
 
-In 2018 I missed my first choices in the university entrance exam and got into the IT program at Thuyloi University. Wanting to make up for it, I signed up for the Student Informatics Contest knowing little more than `if`, `for` and `while`. My teacher, Mr. Trương Xuân Nam, gave me the chance to train, and after a month of practice I was selected for the National Student Olympiad in Informatics. I came home with third prize, which I still find hard to believe.
+What followed was years of tinkering with no plan. I rewrote dialogue and weapon names in games to impress my friends. I built WAP sites on Xtgem and WapSeo by uploading code I didn't understand, watching it fail, and trying again until it didn't. HTML and CSS sank in by repetition rather than study. Pascal and C showed up in high school. Then the platforms I'd been playing on shut down, and I drifted away from it for a while.
 
-After that I tried Python, Node.js and PHP, settled on PHP and Laravel, and got my first job as a web developer.
+## A second start
 
-## Now
+University began with a disappointment: I missed my first choices and landed in the IT program at Thuyloi University. It turned out to be the right place.
 
-These days I'm a full-stack developer in Hanoi, writing mostly Go and TypeScript. I like building small tools that make everyday things easier: encrypted DNS, steadier ping for games, a Linux webcam, MCP servers. You'll find them on the [home page](/#projects). I also work a lot with AI agents like Claude Code, Codex and Cursor.
+In my first year I joined the Student Informatics Contest with almost nothing to my name but loops and conditionals. My teacher, Mr. Trương Xuân Nam, took a chance on me anyway. A month of daily practice later I was competing at the National Student Olympiad in Informatics, and I left with third prize. That result taught me something I still rely on: starting behind is not the same as staying behind.
 
-This site is where I'll post updates when those tools ship new versions, and write about things worth sharing. Thanks for stopping by.
+From there I went through Python, Node.js and PHP, built things with Laravel, and started working as a web developer.
+
+## What I do now
+
+Today I'm a full-stack developer in Hanoi, mostly writing Go and TypeScript. What I enjoy most is the same thing that hooked me on that Nokia: taking something that bothers me and making it behave. Lately that has meant encrypted DNS that just works, steadier ping for games, a better webcam on Linux, and MCP servers that let AI agents talk to real tools. They're all on the [home page](/#projects).
+
+I also spend a lot of my day working alongside AI agents such as Claude Code, Codex and Cursor, and I expect to write about that here.
+
+This site is where I'll announce new releases and share what I learn along the way. Thanks for reading the first post.
