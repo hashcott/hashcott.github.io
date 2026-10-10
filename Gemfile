@@ -1,7 +1,3 @@
-source 'https://rubygems.org'
-
-gem "github-pages", '197', group: :jekyll_plugins
-
-# enable tzinfo-data for local build
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem 'jekyll-paginate'
+source "https://rubygems.org"
+# Chạy thử ở máy: bundle install && bundle exec jekyll serve
+gem "github-pages", group: :jekyll_plugins
