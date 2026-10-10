@@ -12,7 +12,6 @@ _data/projects.yml  projects listed on the home page
 _posts/             posts and release updates
 _layouts/           default.html (page shell), post.html (posts)
 assets/style.css    styles, light and dark
-img/                images used in posts
 ```
 
 ## Adding content

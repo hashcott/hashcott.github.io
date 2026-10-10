@@ -39,9 +39,13 @@ layout: default
 {% assign writings = site.posts | where_exp: "p", "p.type != 'update'" %}
 <section id="posts">
   <h2 class="dir">posts</h2>
+  {% if writings.size > 0 %}
   <ul class="list dated">
     {% for post in writings %}
     <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  {% else %}
+  <p class="empty">No posts yet.</p>
+  {% endif %}
 </section>
